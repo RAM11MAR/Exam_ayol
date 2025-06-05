@@ -79,7 +79,7 @@ class _SignInScreenState extends State<SignInScreen> {
           } else if (state is AuthSuccess) {
             Navigator.pop(context); // Dialog yopish
             _displayMessage(state.message, isError: false);
-            context.go(AppPaths.mainDashboard); // Muvaffaqiyatli bo'lsa homega o'tish
+            context.go(AppPaths.home); // Muvaffaqiyatli bo'lsa homega o'tish
           } else if (state is AuthFailure) {
             Navigator.pop(context); // Dialog yopish
             _displayMessage(state.error, isError: true);

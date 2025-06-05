@@ -52,8 +52,8 @@ class AppRouter {
         },
       ),
       GoRoute(
-        path: AppPaths.mainDashboard,
-        builder: (context, state) => const MainDashboard(),
+        path: AppPaths.home,
+        builder: (context, state) =>  HomePage(),
       ),
     ],
   );

@@ -9,5 +9,5 @@ class AppPaths {
   static const String verifyOtpCode = '/otp-verification'; // Asl OnetimePassword
   static const String createNewPassword = '/password-creation'; // Asl CreatePassword (Figmadagi oxirgi)
 
-  static const String mainDashboard = '/home'; // Asl Home
+  static const String home = '/home'; // Asl Home
 }
